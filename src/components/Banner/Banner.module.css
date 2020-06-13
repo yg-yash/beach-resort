@@ -1,0 +1,40 @@
+/* Banner */
+.Banner {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.Banner h1 {
+  font-size: 2.5rem;
+}
+.Banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.Banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 576px) {
+  .Banner {
+    padding: 2rem 3rem;
+  }
+  .Banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Banner {
+    padding: 2rem 6rem;
+  }
+  .Banner h1 {
+    font-size: 4rem;
+  }
+}
+/* End of Banner */
